@@ -1,17 +1,21 @@
-
+/*General styles*/
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
 }
-
-/*убрать подчеркивание у сылок*/
 .link {
     text-decoration: none;
 }
-/*убрать списки*/
 .list {
     list-style: none;
+}
+
+
+/*header style*/
+.header {
+    background-color: #FFFFFF;
 }
 /*logo*/
 .logo {
@@ -19,7 +23,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: #000000;
 }
 .logo-style {
@@ -31,7 +34,8 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
-.nav .link :hover, :focus {
+.nav .link:hover,
+.nav .link:focus {
     color: #2196F3
 }
 /*contacts-header*/
@@ -40,9 +44,113 @@ body {
     letter-spacing: 0.02em;
     color: #757575;
 }
-
-/*
-.button {
-    cursor: pointer
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+    color: #2196F3;
 }
-*/
+
+/*main section index.html*/
+
+/*block hero*/
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/*button*/
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    cursor: pointer;
+}
+/*.button:hover,
+.button:focus{
+color: #FFFFFF;
+background: #2196F3;
+}*/
+
+/*features*/
+.features {
+    background: #e5e5e5
+}
+.features-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+}
+.features-text {
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;
+}
+/*work*/
+.work {
+    background: #e5e5e5
+}
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;  
+    color: #212121;
+}
+/*team*/
+.team {
+    background: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: #212121
+}
+.team-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: #757575
+}
+
+/*footer*/
+.footer {
+    background: #2F303A;
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #FFFFFF;
+}
+/*footer address*/
+.link-address {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+/* Portfolio page */
+.portfolio-nav {
+    background: #E5E5E5;
+}
