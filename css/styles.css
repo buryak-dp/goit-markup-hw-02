@@ -1,6 +1,7 @@
 /*General styles*/
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -74,11 +75,16 @@ body {
     background: #2196F3;
     cursor: pointer;
 }
-/*.button:hover,
-.button:focus{
-color: #FFFFFF;
-background: #2196F3;
-}*/
+.button.portfolio {
+    font-weight: 500;
+    line-height: 1.62;
+
+}
+.button.button.portfolio:hover,
+.button.button.portfolio:focus{
+color: #212121;
+background: #F5F4FA;
+}
 
 /*features*/
 .features {
@@ -90,7 +96,6 @@ background: #2196F3;
     color: #212121;
 }
 .features-text {
-    font-weight: 400;
     line-height: 1.71;
     color: #757575;
 }
@@ -124,7 +129,6 @@ background: #2196F3;
     color: #212121
 }
 .team-profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -144,7 +148,6 @@ background: #2196F3;
 }
 /*footer address*/
 .link-address {
-    font-weight: 400;
     font-style: normal;
     line-height: 1.71;
     color: #FFFFFF;
@@ -153,4 +156,16 @@ background: #2196F3;
 /* Portfolio page */
 .portfolio-nav {
     background: #E5E5E5;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-group {
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
 }
